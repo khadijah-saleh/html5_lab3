@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#div1{
+
+    margin: 2% auto;
+    padding: 1%;
+    position: relative;
+    border-radius: 2px;
+}
+
+#div1 img{
+    position: absolute;
+    right: 190px;
+    bottom: 80%;
+}
+
+#innerdiv{
+
+    padding-top: 10% ;
+    width: 70%;
+    margin: 8% auto;
+    background-color: white;
+    color: grey;
+    border-radius: 2px;
+}
+
+#innerdiv2{
+
+   padding: 2% 0 ;
+}
+
+i{
+    margin: 5% 5% 2%;
+}
+
+#innerdiv3{
+    display:flex;
+    width: 80%;
+    justify-content: space-around;
+    margin:5% auto 0;
+}
+
+button{
+    margin: 8% ;
+    width: 120px;
+    border-radius: 3px;
+    background-color: rgb(0, 128, 255);
+    font-size: 13px;
+    border: 0;
+    color: white;
+    padding: 10px 0 ;
+}
+
+.imgstyle {
+
+    transition: width 2s;
+}
+
+.imgstyle:hover {
+
+    width: 250px;
+    height: 150px;
+
+}
+
+
+ input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px; 
+    
+  }
+  
+  
+input[type=text] {
+
+    animation-name: formanimation;
+    animation-duration: 5s;    
+    animation-fill-mode:none ;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes formanimation {
+    /* 0% {
+        width: 25%;
+    }
+  
+    50%{
+        width: 50% ;
+    }
+
+    75%{
+        width: 75%;
+    }
+
+    100%{
+        width: 100%;
+    } */
+
+    from{
+        width: 130px;
+    }
+    
+    to{
+        width: 100%;
+    }
+}
